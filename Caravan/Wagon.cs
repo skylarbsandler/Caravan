@@ -18,7 +18,7 @@ namespace Caravan
             Name = name;
             NumWheels = numwheels;
             Covered = covered;
-
+            Passengers = new List<Passenger>();
         }
     }
 }
